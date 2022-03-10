@@ -1,0 +1,39 @@
+body{
+    background-color: lightgrey;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul a {
+    width: 200px;
+    height: 40px;
+    display: block;
+    text-decoration: none;
+    text-indent: 40px;
+    line-height:40px;
+    font-weight: bold;
+    color: lightgray;
+    background-color: #f7b600;
+    background-image: url(imagens/menu.png);
+    background-position: left center;
+}
+
+ul a:hover{
+    background-position: right center;
+    background-color: #f99200;
+    color: white;
+}
+
+#home .home a,
+#sobre .sobre a,
+#servicos .servicos a,
+#noticias .noticias a,
+#contato .contato a{
+    background-position: right center;
+    background-color: #f99200;
+    color: white;
+}
