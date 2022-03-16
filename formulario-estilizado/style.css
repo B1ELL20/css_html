@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+fieldset {
+    padding: 20px;
+    margin: 20px;
+    border-color: #ccc;
+    background-color: #f8f8f8;
+}
+
+legend {
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    cursor: pointer;
+}
+
+input[type="text"]{
+    width: 300px;
+}
