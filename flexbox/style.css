@@ -1,0 +1,41 @@
+.conteudo {
+    background-color: #CCC;
+    height: 400px;
+    display: flex;
+
+    /*flex directio: row | row-reverse | column | colum-reverse*/
+    /*flex-direction: row;*/
+
+    /*flex wrap: nowwrap | wrap | wrap-reverse | colum-reverse*/
+    /*flex-wrap: wrap;*/
+
+    /*justify content: felx-start | flex-end | center | space-between | space-around*/
+    /*justify-content: space-between;*/
+
+    /*flex directio: stretch | center | flex-start | flex-end | baseline*/
+    /*align-items: stretch;*/
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.ordem1 {   
+    order: 1;
+}
+
+.ordem2 {
+    order: 2;
+}
+
+.ordem3 {
+    order: 3;
+}
+
+.ordem4 {
+    order: 4;
+}

@@ -1,0 +1,74 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html {
+    font: 16px "Lato", sans-serif;
+    color: #777;
+    height: 100%;
+}
+.conteudo {
+    color: #777;
+    padding: 50px 80px;
+    background-color: white;
+    text-align: justify;
+}
+
+h3 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #111;
+    padding: 30px;
+}
+
+/*Configuração das imagens*/
+
+.caixa1, .caixa2, .caixa3, .caixa4 {
+    height: 100%;
+    filter: opacity(90%);
+    background-position: center;
+    position: relative;
+}
+
+.caixa1 {
+    background: url(imagens/imagem1.jpg) fixed no-repeat center;
+    background-size: cover;
+}
+
+.caixa2 {
+    background: url(imagens/imagem2.jpg) fixed no-repeat center;
+    background-size: cover;
+}
+
+.caixa3 {
+    background: url(imagens/imagem3.jpg) fixed no-repeat center;
+    background-size: cover;
+}
+
+.caixa4 {
+    background: url(imagens/imagem4.jpg) fixed no-repeat center;
+    background-size: cover;
+}
+
+p {
+    margin-bottom: 30px;
+}
+
+.conteudo-titulo {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+h1.titulo {
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 10x;
+    padding: 1%;
+    border-radius: 2px;
+    background-color: rgba(119, 119, 119, 0.644);
+    color: white;
+}
